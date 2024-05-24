@@ -2,7 +2,7 @@
 
 recover_parameters <- function(alpha, 
                                beta, 
-                               N=1e4) {
+                               N=1000) {
   x <- rnorm(n = N, 
              mean = 0, 
              sd = 1)
