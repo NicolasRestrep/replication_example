@@ -10,7 +10,9 @@ recover_parameters <- function(alpha,
   y <- rnorm(n=N, 
              mean = alpha + (beta * x), 
              sd = 1)
-  
+
+  paste0("Here are your results:")
+
   summary(lm(y ~ x))
   
 }
